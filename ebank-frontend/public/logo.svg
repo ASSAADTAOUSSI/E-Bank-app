@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af" />
+      <stop offset="100%" style="stop-color:#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="innerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6" />
+      <stop offset="100%" style="stop-color:#2563eb" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)"/>
+  
+  <!-- Shield Shape (Security/Trust) -->
+  <path d="M256 80L200 110V180C200 240 220 280 256 320C292 280 312 240 312 180V110L256 80Z" fill="url(#shieldGradient)"/>
+  
+  <!-- Inner Shield -->
+  <path d="M256 120L220 140V180C220 220 235 250 256 280C277 250 292 220 292 180V140L256 120Z" fill="url(#innerGradient)"/>
+  
+  <!-- Letter E (Bold) -->
+  <path d="M200 200H280V220H220V240H280V260H220V280H280V300H200V200Z" fill="white"/>
+  
+  <!-- Bank Symbol (Coins/Money) -->
+  <circle cx="256" cy="360" r="30" fill="#10b981"/>
+  <circle cx="256" cy="360" r="20" fill="#34d399"/>
+  <path d="M246 350L256 360L266 350" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M246 370L256 360L266 370" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
